@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/chatApp
+/src/Api/bin/Debug/net5.0
+/src/Api/obj
+/src/ApplicationCore/bin/Debug/net5.0
+/src/ApplicationCore/obj
+/src/Infrastructure/bin/Debug/net5.0
+/src/Infrastructure/obj
+/tests/UnitTests/bin/Debug/net5.0
+/tests/UnitTests/obj
