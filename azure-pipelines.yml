@@ -25,6 +25,6 @@ steps:
     repository: 'chatAppApi-azureDevops'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: 
+    tags: |
       $(Build.BuildId)
       latest
