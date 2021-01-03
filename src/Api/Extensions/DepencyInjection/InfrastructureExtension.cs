@@ -11,7 +11,7 @@ namespace Api.Extensions.DepencyInjection
 
         public static void RegisterInfrastructure(this IServiceCollection services)
         {
-            services.AddSingleton(x => new List<Sala> { new Sala("Sala1"), new Sala("Sala2") });
+            services.AddSingleton(x => new List<Sala> { new Sala("Sala1"), new Sala("Sala2"), new Sala("Sala3") });
             services.AddScoped<ISalaRepository, SalaRepository>();
         }
     }
