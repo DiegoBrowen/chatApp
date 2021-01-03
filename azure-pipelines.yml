@@ -17,14 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-  
-# Starter pipeline
-- task: Docker@2
-  inputs:
-    containerRegistry: 'chatApp'
-    repository: 'chatAppApi-azureDevops'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
-    tags: |
-      $(Build.BuildId)
-      latest
