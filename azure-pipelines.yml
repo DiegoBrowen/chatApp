@@ -24,4 +24,4 @@ steps:
     containerRegistry: 'chatApp'
     repository: 'chatAppApi-azureDevops'
     command: 'buildAndPush'
-    Dockerfile: '*/src/Api/Dockerfile'
+    Dockerfile: './src/Api/Dockerfile'
